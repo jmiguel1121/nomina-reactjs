@@ -1,13 +1,57 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("./assets/img/fondo.jpg");
+  background-size: 100% 100% no-repeat;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.content {
+  background-color: white !important;
+  margin-top: 30px !important;
+}
+
+.absolute {
+  position: absolute;
+}
+
+@media (min-width: 600px) {
+  .MuiContainer-root {
+    margin-top: 70px !important;
+    margin-left: 270px !important;
+  }
+}
+
+.form-control {
+  height: calc(1em + 0.75rem + 2px) !important;
+}
+
+label {
+  margin-bottom: 0px;
+}
+
+hr {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container-table {
+  overflow-x: scroll;
+  background: white;
+  padding: 5px;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
